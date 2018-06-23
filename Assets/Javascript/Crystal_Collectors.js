@@ -64,18 +64,18 @@ $(document).ready(function() {
         alert("You Won!!");
         wins++;
         $("#numberWins").text(wins);
-        reset();
-    }
+       
+    } 
+    
+    reset();
         }
 
         else if (userTotal > random){
-            loser()
-            function loser() {
         alert("You Lose!!");
         losses++;
         $("#numberLosses").text(losses);
-        reset();
-    }
+       
+
         };
-    
+     reset();
     })
